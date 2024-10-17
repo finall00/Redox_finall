@@ -188,7 +188,7 @@ led_config_t g_led_config = {{{0, 1, 2, 3, 4, 5, NO_LED},
                               {63, 64, 65, 66, 67, 68, 69},
                               {70, 71, NO_LED, NO_LED, NO_LED, NO_LED, NO_LED}},
                              {
-                                 // Funciono sem o mapa fisico, fodase
+                                 // Funciono sem o mapa fisico, fodase // funciono não // ta mais ou menos
                                  {188, 16}, {187, 48}, {149, 64}, {112, 64}, {37, 48}, {38, 16},           // Primeira linha
                                  {33, 16},  {34, 48},  {35, 64},  {36, 64},  {37, 48}, {38, 16}, {39, 16}, // Segunda linha
                                  {47, 48},  {48, 48},  {49, 48},  {50, 48},  {51, 48}, {52, 48}, {53, 48}, // Terceira linha
