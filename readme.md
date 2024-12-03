@@ -1,6 +1,6 @@
 # redox_finall
 
-![redox_finall](imgur.com image replace me!)
+
 
 *O projeto basicamente é o teclado ideal para mim, escolhi o designer baseado no redox rev1 e fiz as minhas proprias modificações*
 
@@ -44,13 +44,16 @@ Atualmente o layout do teclado é o QWERTY porem futuramente sera adicionadas ca
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
+Para acessar o bootloader existem 2 maneiras:
 
-* **Bootmagic reset**: Hold down the key at (0,4) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead 
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+* **Bootmagic reset**: Reinicie o teclado precionanso a tecla "`"
+* **Fisco usando o botão reset**: Desconecte o teclado do usb precione o botão do boot e conect novamente
+
 
 
 ## TODO:
 
-Add VIA
+- [ ] Add VIA
+- [ ] add a tecla del na layer 3
+- [ ] fazer alguns ajustes na estrutura do teclado
+- [ ] organizar melhor a layer de atalhos
